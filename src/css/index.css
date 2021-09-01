@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
+/* wine title */
+@import url("https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&display=swap");
+/* h1 title */
+@import url("https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+  line-height: 1.75em;
+  background: #f7f7f7;
+  color: #171d29;
+}
+button,
+input,
+textarea {
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 400;
+  line-height: normal;
+}
+
+p,
+span {
+  word-break: break-word;
+}
+
+.page-header > .title {
+  font-weight: 500;
+  color: #222;
+  letter-spacing: 0.02rem;
+}

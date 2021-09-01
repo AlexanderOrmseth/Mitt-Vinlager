@@ -1,0 +1,134 @@
+.overview-grid {
+  display: grid;
+  grid-gap: 1.5rem;
+
+  grid-template-columns: 1fr 1.7fr;
+}
+
+.profile-block p {
+  display: flex;
+  justify-items: center;
+}
+.profile-block p span {
+  display: inline-flex;
+  align-items: center;
+  width: 7.5rem;
+  font-weight: 500;
+
+  color: #111;
+}
+.profile-block p span > svg {
+  margin-right: 0.5rem;
+}
+.profile-actions {
+  margin-top: 1rem;
+}
+
+.wine-table > div > a {
+  color: #a91f36;
+  text-decoration: none;
+  padding: 0.3rem 0;
+}
+.wine-table > div > a:hover {
+  text-decoration: underline;
+}
+.wine-table {
+  line-height: 3rem;
+  align-items: center;
+  display: grid;
+  border-bottom: 1px solid rgb(236, 236, 236);
+}
+.table-data {
+  max-height: 300px;
+  overflow-y: auto;
+}
+.wine-table-wrap.drank-table .wine-table {
+  grid-template-columns: 0.5fr 4fr 1fr 1fr 2fr;
+}
+.wine-table-wrap.amount-table {
+  max-width: 600px;
+}
+.wine-table-wrap.drank-table {
+  max-width: 800px;
+}
+
+.wine-table-wrap.amount-table .wine-table {
+  grid-template-columns: 1.4fr 1fr 1fr 1.4fr;
+}
+
+.wine-table-wrap.types-table {
+  max-width: 500px;
+}
+.wine-table-wrap.types-table .wine-table:not(.table-header) > div:first-child {
+  text-transform: capitalize;
+}
+.wine-table-wrap.types-table .wine-table {
+  grid-template-columns: 1.1fr 0.5fr 1.2fr;
+}
+.wine-table:not(.table-header) {
+}
+
+.wine-table > div {
+  padding: 0.1rem 0.5rem;
+}
+.wine-table:not(.table-header):hover {
+  cursor: default;
+  background: #f8f8f8;
+}
+.wine-table-wrap .table-title {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+.wine-table-wrap .table-title > svg {
+  margin-right: 0.5rem;
+}
+.wine-table.table-header {
+  font-weight: 500;
+  color: rgb(131, 131, 131);
+  padding: 0.1rem 0.5rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  line-height: 1;
+}
+@media (max-width: 1200px) {
+  .wine-table {
+    line-height: 2.5rem;
+  }
+  .profile-block {
+    grid-column: span 2;
+  }
+  .overview-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .types-block {
+  }
+  .drank-block {
+    grid-column: span 2;
+  }
+}
+@media (max-width: 950px) {
+  .wine-table {
+    line-height: 2rem;
+  }
+  .overview-grid {
+    display: block;
+  }
+  .overview-grid > div + div {
+    margin-top: 1.5rem;
+  }
+}
+@media (max-width: 620px) {
+  .wine-table {
+    line-height: 1.7rem;
+  }
+  .table-data {
+    font-size: 0.9rem;
+  }
+
+  .profile-block p span {
+    width: auto;
+    margin-right: 1rem;
+  }
+}

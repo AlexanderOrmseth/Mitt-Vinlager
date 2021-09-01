@@ -1,0 +1,271 @@
+.flag-icon-background {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.33333333em;
+  line-height: 1rem;
+}
+.flag-icon:before {
+  content: "\00a0";
+}
+
+.flag-icon-ar {
+  background-image: url(./4x3/ar.svg);
+}
+
+.flag-icon-au {
+  background-image: url(./4x3/au.svg);
+}
+
+.flag-icon-cl {
+  background-image: url(./4x3/cl.svg);
+}
+
+.flag-icon-cn {
+  background-image: url(./4x3/cn.svg);
+}
+
+.flag-icon-de {
+  background-image: url(./4x3/de.svg);
+}
+
+.flag-icon-es {
+  background-image: url(./4x3/es.svg);
+}
+
+.flag-icon-fr {
+  background-image: url(./4x3/fr.svg);
+}
+
+.flag-icon-gr {
+  background-image: url(./4x3/gr.svg);
+}
+
+.flag-icon-it {
+  background-image: url(./4x3/it.svg);
+}
+
+.flag-icon-nz {
+  background-image: url(./4x3/nz.svg);
+}
+
+.flag-icon-pt {
+  background-image: url(./4x3/pt.svg);
+}
+.flag-icon-ro {
+  background-image: url(./4x3/ro.svg);
+}
+.flag-icon-ru {
+  background-image: url(./4x3/ru.svg);
+}
+.flag-icon-us {
+  background-image: url(./4x3/us.svg);
+}
+.flag-icon-za {
+  background-image: url(./4x3/za.svg);
+}
+.flag-icon-br {
+  background-image: url(./4x3/br.svg);
+}
+.flag-icon-hu {
+  background-image: url(./4x3/hu.svg);
+}
+.flag-icon-at {
+  background-image: url(./4x3/at.svg);
+}
+.flag-icon-rs {
+  background-image: url(./4x3/rs.svg);
+}
+.flag-icon-md {
+  background-image: url(./4x3/md.svg);
+}
+.flag-icon-bg {
+  background-image: url(./4x3/bg.svg);
+}
+.flag-icon-ge {
+  background-image: url(./4x3/ge.svg);
+}
+.flag-icon-ch {
+  background-image: url(./4x3/ch.svg);
+}
+.flag-icon-ua {
+  background-image: url(./4x3/ua.svg);
+}
+.flag-icon-jp {
+  background-image: url(./4x3/jp.svg);
+}
+.flag-icon-pe {
+  background-image: url(./4x3/pe.svg);
+}
+.flag-icon-uy {
+  background-image: url(./4x3/uy.svg);
+}
+.flag-icon-ca {
+  background-image: url(./4x3/ca.svg);
+}
+.flag-icon-dz {
+  background-image: url(./4x3/dz.svg);
+}
+.flag-icon-cz {
+  background-image: url(./4x3/cz.svg);
+}
+.flag-icon-mk {
+  background-image: url(./4x3/mk.svg);
+}
+.flag-icon-cr {
+  background-image: url(./4x3/cr.svg);
+}
+
+.flag-icon-tr {
+  background-image: url(./4x3/tr.svg);
+}
+.flag-icon-mx {
+  background-image: url(./4x3/mx.svg);
+}
+.flag-icon-tm {
+  background-image: url(./4x3/tm.svg);
+}
+.flag-icon-ma {
+  background-image: url(./4x3/ma.svg);
+}
+.flag-icon-uz {
+  background-image: url(./4x3/uz.svg);
+}
+.flag-icon-sk {
+  background-image: url(./4x3/sk.svg);
+}
+
+.flag-icon-by {
+  background-image: url(./4x3/by.svg);
+}
+.flag-icon-kz {
+  background-image: url(./4x3/kz.svg);
+}
+.flag-icon-tn {
+  background-image: url(./4x3/tn.svg);
+}
+.flag-icon-al {
+  background-image: url(./4x3/al.svg);
+}
+.flag-icon-me {
+  background-image: url(./4x3/me.svg);
+}
+.flag-icon-lb {
+  background-image: url(./4x3/lb.svg);
+}
+.flag-icon-si {
+  background-image: url(./4x3/si.svg);
+}
+.flag-icon-co {
+  background-image: url(./4x3/co.svg);
+}
+.flag-icon-lu {
+  background-image: url(./4x3/lu.svg);
+}
+.flag-icon-cu {
+  background-image: url(./4x3/cu.svg);
+}
+.flag-icon-ee {
+  background-image: url(./4x3/ee.svg);
+}
+.flag-icon-cy {
+  background-image: url(./4x3/cy.svg);
+}
+.flag-icon-az {
+  background-image: url(./4x3/az.svg);
+}
+.flag-icon-bo {
+  background-image: url(./4x3/bo.svg);
+}
+.flag-icon-mg {
+  background-image: url(./4x3/mg.svg);
+}
+.flag-icon-ba {
+  background-image: url(./4x3/ba.svg);
+}
+.flag-icon-am {
+  background-image: url(./4x3/am.svg);
+}
+.flag-icon-lt {
+  background-image: url(./4x3/lt.svg);
+}
+.flag-icon-eg {
+  background-image: url(./4x3/eg.svg);
+}
+.flag-icon-il {
+  background-image: url(./4x3/il.svg);
+}
+.flag-icon-be {
+  background-image: url(./4x3/be.svg);
+}
+.flag-icon-lv {
+  background-image: url(./4x3/lv.svg);
+}
+.flag-icon-mt {
+  background-image: url(./4x3/mt.svg);
+}
+.flag-icon-zw {
+  background-image: url(./4x3/zw.svg);
+}
+.flag-icon-kg {
+  background-image: url(./4x3/kg.svg);
+}
+.flag-icon-py {
+  background-image: url(./4x3/py.svg);
+}
+.flag-icon-et {
+  background-image: url(./4x3/et.svg);
+}
+.flag-icon-jo {
+  background-image: url(./4x3/jo.svg);
+}
+.flag-icon-gb {
+  background-image: url(./4x3/gb.svg);
+}
+.flag-icon-gb-eng {
+  background-image: url(./4x3/gb-eng.svg);
+}
+.flag-icon-gb-nir {
+  background-image: url(./4x3/gb-nir.svg);
+}
+.flag-icon-gb-sct {
+  background-image: url(./4x3/gb-sct.svg);
+}
+.flag-icon-gb-wls {
+  background-image: url(./4x3/gb-wls.svg);
+}
+.flag-icon-pa {
+  background-image: url(./4x3/pa.svg);
+}
+.flag-icon-tj {
+  background-image: url(./4x3/tj.svg);
+}
+.flag-icon-li {
+  background-image: url(./4x3/li.svg);
+}
+
+.flag-icon-sy {
+  background-image: url(./4x3/sy.svg);
+}
+.flag-icon-pl {
+  background-image: url(./4x3/pl.svg);
+}
+.flag-icon-re {
+  background-image: url(./4x3/re.svg);
+}
+.flag-icon-no {
+  background-image: url(./4x3/no.svg);
+}
+.flag-icon-fi {
+  background-image: url(./4x3/fi.svg);
+}
+.flag-icon-se {
+  background-image: url(./4x3/se.svg);
+}

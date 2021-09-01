@@ -1,0 +1,339 @@
+.view-wine-top {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  grid-gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.view-wine-top > aside {
+  background: #2b2d42;
+  box-shadow: 0 1.6px 0px 0 rgb(0 0 0 / 7%);
+}
+
+.view-wine-top > aside,
+.view-wine-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+.wine-header-full {
+  grid-column: span 2;
+}
+
+.view-wine-header {
+}
+
+.view-wine-header h1 {
+  flex: 1;
+  font-size: 1.7rem;
+  color: #2b2d42;
+  font-weight: 400;
+  display: flex;
+  line-height: 1.1;
+  align-items: center;
+  font-family: "Coustard", serif;
+}
+.view-wine-header h1 > .flag-icon {
+  display: inline-block;
+  margin-right: 0.8rem;
+  height: 2rem;
+}
+
+.view-wine-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0.5rem;
+  max-width: 600px;
+}
+
+.view-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.view-icons > .view-icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.view-icon-wrap + .view-icon-wrap {
+  margin-left: 1.2rem;
+}
+
+.view-section-main {
+  display: flex;
+  background: #fafafa;
+  box-shadow: 0 1.6px 0px 0 rgb(0 0 0 / 7%);
+  line-height: 1.5rem;
+}
+
+.view-section-taste {
+  grid-column: span 2;
+}
+.taste-description-span {
+  grid-column: span 2;
+}
+.view-section-taste > div {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.view-section p {
+  font-size: 1rem;
+}
+.view-section-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.view-section-link a {
+  margin-left: 0.3rem;
+}
+.view-section p > span {
+  font-weight: 500;
+}
+
+.view-section p + p {
+  margin-top: 0.3rem;
+}
+
+.view-section h2 {
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #2b2d42;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+.view-section h2 > svg {
+  margin-right: 0.4rem;
+  color: #222;
+  color: #d90429;
+}
+
+.view-section-main > div:first-child {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  padding-right: 2em;
+}
+
+.view-section-main > div:last-child {
+  width: 500px;
+  transition: width 0.3s linear;
+}
+.view-image-action {
+  margin-bottom: 0.5rem;
+}
+.view-image-container {
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+  -webkit-box-shadow: 0 1.6px 3.6px 0 rgb(0 0 0 / 7%),
+    0 0.3px 0.9px 0 rgb(0 0 0 / 11%);
+  box-shadow: 0 1.6px 3.6px 0 rgb(0 0 0 / 7%), 0 0.3px 0.9px 0 rgb(0 0 0 / 11%);
+  user-select: none;
+}
+.view-image-container:hover .view-image-content {
+  visibility: hidden;
+  opacity: 0;
+}
+.view-image-content {
+  padding: 1.4rem;
+  background: rgb(255, 255, 255);
+}
+.view-section-main .view-image-container img {
+  margin: 0 auto;
+  display: block;
+  max-height: 500px;
+  max-width: 100%;
+  animation: slideFromTop 0.4s cubic-bezier(0.54, 0.46, 0.54, 0.94) forwards;
+  transform: translateY(-5%);
+  opacity: 0;
+}
+
+@keyframes slideFromTop {
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.view-taste-sliders {
+  max-width: 300px;
+}
+.view-taste-sliders .taste-slider + .taste-slider {
+  margin-top: 0.8rem;
+}
+.view-taste-sliders h3 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.view-taste-sliders .taste-slider > div {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.view-taste-sliders .slider-wrap {
+  flex: 1;
+  position: relative;
+  height: 2px;
+  background: rgb(235, 235, 235);
+}
+.view-taste-sliders .slider-value {
+  background: #ef233c;
+  height: 2px;
+  flex: 1;
+  position: relative;
+  animation: slideFromLeft 0.4s cubic-bezier(0.54, 0.46, 0.54, 0.94) 0s forwards;
+  transform: translateX(-102%);
+  opacity: 0;
+}
+
+@keyframes slideFromLeft {
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.view-taste-sliders .taste-slider:nth-child(1) .slider-value {
+  animation-delay: 0s;
+}
+.view-taste-sliders .taste-slider:nth-child(2) .slider-value {
+  animation-delay: 0.1s;
+}
+.view-taste-sliders .taste-slider:nth-child(3) .slider-value {
+  animation-delay: 0.2s;
+}
+.view-taste-sliders .taste-slider:nth-child(4) .slider-value {
+  animation-delay: 0.3s;
+}
+.view-taste-sliders .taste-slider:nth-child(5) .slider-value {
+  animation-delay: 0.4s;
+}
+
+.view-taste-sliders .slider-value:after {
+  content: "";
+  position: absolute;
+  left: calc(100% - 1px);
+  top: -2px;
+  width: 2px;
+  height: 6px;
+  background: #000000;
+}
+.view-taste-sliders > div p {
+  margin-left: 0.8rem;
+  font-size: 0.9rem;
+}
+
+/* responsiveness */
+
+@media only screen and (max-width: 1320px) {
+  .view-wine-actions .button.dark > svg {
+    display: none;
+  }
+
+  .view-icons {
+    margin-top: 1rem;
+  }
+}
+@media only screen and (max-width: 1220px) {
+  .view-section-main > div:last-child {
+    width: 400px;
+    transition: null;
+  }
+  .view-section-main .view-image-container img {
+    max-height: 500px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .view-wine-top {
+    grid-template-columns: 1fr;
+  }
+  .view-wine-actions .button.dark > svg {
+    display: initial;
+  }
+  .view-section-main > div:last-child {
+    width: 320px;
+    transition: null;
+  }
+  .view-section-main .view-image-container img {
+    max-height: 400px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .view-wine-header h1 {
+    font-size: 1.6rem;
+  }
+  .view-taste-sliders {
+    max-width: 250px;
+  }
+  .view-section-main > div:first-child {
+    display: grid;
+  }
+  .view-section + .view-section {
+    margin-top: 0rem;
+  }
+  .view-section-main {
+    flex-direction: column-reverse;
+  }
+  .view-section-main > div:last-child {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .view-section-main .view-image-container img {
+    max-height: 300px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .view-section-taste > div {
+    display: block;
+  }
+  .view-taste-sliders {
+    margin-top: 1.2rem;
+  }
+  .view-taste-sliders {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .view-wine-header h1 {
+    font-size: 1.3rem;
+  }
+  .view-section-main > div:first-child {
+    display: block;
+  }
+  .view-section + .view-section {
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .view-section-main > div:first-child {
+    display: block;
+  }
+  .view-section + .view-section {
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .view-wine-actions .button.dark > svg {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .view-wine-actions {
+    grid-template-columns: 1fr 1fr;
+  }
+  .view-wine-actions .button.dark > svg {
+    display: initial;
+  }
+}
